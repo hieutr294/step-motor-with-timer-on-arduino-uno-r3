@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Do_an_dieu_khien\dong_co_buoc\dong_co_buoc.kicad_sch</source>
+    <date>10/12/2023 4:16:41 pm</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>STEP MOTOR</title>
+        <company/>
+        <rev>HIEU TRUONG</rev>
+        <date>2023-12-09</date>
+        <source>dong_co_buoc.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="DOWN1">
+      <value>Nut nhan 12x12</value>
+      <footprint>Button_Switch_THT:SW_PUSH-12mm_Wuerth-430476085716</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54c7c8bb-8681-44b5-b5fa-bf9f537469d4</tstamps>
+    </comp>
+    <comp ref="DRIVERX1">
+      <value>Dau XH 1x5 2.54</value>
+      <footprint>hang_rao:Rao_1x5</footprint>
+      <libsource lib="hang_rao" part="Rao_1x5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fbca00e-16ff-4e3e-9e7b-4c8a246887e3</tstamps>
+    </comp>
+    <comp ref="DRIVERY1">
+      <value>Dau XH 1x5 2.54mm</value>
+      <footprint>hang_rao:Rao_1x5</footprint>
+      <libsource lib="hang_rao" part="Rao_1x5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f0dd3a7-e3e3-4d37-a5f5-534046fdbbfd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Dau XH 1x2 2.54</value>
+      <footprint>hang_rao:Dau_PH_1x2</footprint>
+      <libsource lib="hang_rao" part="Dau_PH_1x2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7f05c82-768d-4eaf-a775-c5d3f2b499cf</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Dau XH 1x2 2.54</value>
+      <footprint>hang_rao:Dau_PH_1x2</footprint>
+      <libsource lib="hang_rao" part="Dau_PH_1x2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e4dbb15-51ca-4a56-9d34-baefd82d6b39</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JACK DC</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88db7a59-8a60-43de-8091-079bc3933bc2</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>DOMINO</value>
+      <footprint>TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dd8ca7d-c843-4ac7-934b-093a6f86bc59</tstamps>
+    </comp>
+    <comp ref="LCD1">
+      <value>Rao cai 1x4 2.54mm</value>
+      <footprint>hang_rao:Rao_1x4</footprint>
+      <libsource lib="hang_rao" part="Rao_1x4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>436fc130-9e8b-459d-bdf4-cb3f77d86b35</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a10fd6e2-333c-4aee-b230-a310d26bd10b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4d3fdaa-7b92-4a78-ac1e-b2bcfc58cbbc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5afcddc-2e77-465a-b650-2fa25606f8b7</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fc0a926-cd89-4faf-aebc-1005bf5c775c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f168dc0-9c06-4c55-9339-7a1221a2b6e6</tstamps>
+    </comp>
+    <comp ref="SET1">
+      <value>Nut nhan 12x12</value>
+      <footprint>Button_Switch_THT:SW_PUSH-12mm_Wuerth-430476085716</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8ea78e3-d006-455c-8aad-f5c0469502db</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220F-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="ki_keywords" value="Voltage Regulator 1.5A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19901dc2-1aa1-4f10-8f9a-f049de59b320</tstamps>
+    </comp>
+    <comp ref="UP1">
+      <value>Nut nhan 12x12</value>
+      <footprint>Button_Switch_THT:SW_PUSH-12mm_Wuerth-430476085716</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dong_co_buoc.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c01f7cc8-ade9-4d7c-ab76-4621a50f22b9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_UNO_R3">
+      <description>Arduino UNO Microcontroller Module, release 3</description>
+      <docs>https://www.arduino.cc/en/Main/arduinoBoardUno</docs>
+      <footprints>
+        <fp>Arduino*UNO*R3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_UNO_R3</field>
+        <field name="Footprint">Module:Arduino_UNO_R3</field>
+        <field name="Datasheet">https://www.arduino.cc/en/Main/arduinoBoardUno</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="IOREF" type="output"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="3V3" type="power_out"/>
+        <pin num="5" name="+5V" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="A0" type="bidirectional"/>
+        <pin num="10" name="A1" type="bidirectional"/>
+        <pin num="11" name="A2" type="bidirectional"/>
+        <pin num="12" name="A3" type="bidirectional"/>
+        <pin num="13" name="SDA/A4" type="bidirectional"/>
+        <pin num="14" name="SCL/A5" type="bidirectional"/>
+        <pin num="15" name="D0/RX" type="bidirectional"/>
+        <pin num="16" name="D1/TX" type="bidirectional"/>
+        <pin num="17" name="D2" type="bidirectional"/>
+        <pin num="18" name="D3" type="bidirectional"/>
+        <pin num="19" name="D4" type="bidirectional"/>
+        <pin num="20" name="D5" type="bidirectional"/>
+        <pin num="21" name="D6" type="bidirectional"/>
+        <pin num="22" name="D7" type="bidirectional"/>
+        <pin num="23" name="D8" type="bidirectional"/>
+        <pin num="24" name="D9" type="bidirectional"/>
+        <pin num="25" name="D10" type="bidirectional"/>
+        <pin num="26" name="D11" type="bidirectional"/>
+        <pin num="27" name="D12" type="bidirectional"/>
+        <pin num="28" name="D13" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="AREF" type="input"/>
+        <pin num="31" name="SDA/A4" type="bidirectional"/>
+        <pin num="32" name="SCL/A5" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hang_rao" part="Dau_PH_1x2">
+      <fields>
+        <field name="Reference">J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="hang_rao" part="Rao_1x4">
+      <fields>
+        <field name="Reference">J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="hang_rao" part="Rao_1x5">
+      <fields>
+        <field name="Reference">J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="hang_rao">
+      <uri>C:/Users/minhh/Documents/KiCad/7.0/symbols/hang_rao.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="U1" pin="3" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="/DIR_X">
+      <node ref="DRIVERX1" pin="4" pinfunction="4" pintype="input"/>
+    </net>
+    <net code="3" name="/DIR_Y">
+      <node ref="DRIVERY1" pin="4" pinfunction="4" pintype="input"/>
+    </net>
+    <net code="4" name="/DOWN BUTTON">
+      <node ref="DOWN1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/ENA_X">
+      <node ref="DRIVERX1" pin="3" pinfunction="3" pintype="input"/>
+    </net>
+    <net code="6" name="/ENA_Y">
+      <node ref="DRIVERY1" pin="5" pinfunction="5" pintype="input"/>
+    </net>
+    <net code="7" name="/HOME_X">
+      <node ref="J2" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/HOME_Y">
+      <node ref="J1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/SCL">
+      <node ref="LCD1" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="10" name="/SDA">
+      <node ref="LCD1" pin="2" pinfunction="2" pintype="input"/>
+    </net>
+    <net code="11" name="/SET BUTTON">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SET1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/STEP_X">
+      <node ref="DRIVERX1" pin="5" pinfunction="5" pintype="input"/>
+    </net>
+    <net code="13" name="/STEP_Y">
+      <node ref="DRIVERY1" pin="3" pinfunction="3" pintype="input"/>
+    </net>
+    <net code="14" name="/UP BUTTON">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="UP1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="DRIVERX1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="DRIVERY1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="LCD1" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="17" name="Net-(J4-Pin_2)">
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="18" name="VCC">
+      <node ref="DOWN1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="DRIVERX1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="DRIVERY1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="LCD1" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="SET1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="UP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
